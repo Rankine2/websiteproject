@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eclipse Aparrel | E-Commerce Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body> 
+
+    <div class="header">
+
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+        <img src="images/lasta.jpg" width="125px">
+        </div>
+        <nav>
+
+        <ul id="MenuItems">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products-detail.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="cartko.html" class="">
+        
+        </ul>
+        </nav>
+        <img src="images/mhg'.jpg" width="30px" height="30px">
+        <img src="images/mens.jpg" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+
+    </div>
+</div>
+
+
+<!---------- footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <img src="images/ea2.jpg">
+                <h3><p>Eclipse Apparel is a shop that stands out, that sets trends, that is a destination for style seekers and those who value quality and individuality. We have a team of fashion experts who are continuously on the lookout for the latest trends and timeless pieces that can effortlessly transition from day to night. With a keen eye for quality, we carefully select each item to demonstrate the newest styles in the market for our customers without compromising comfort and durability so that our customers show up feeling good looking good and stylish every where they head to. Read below to find out more about our unique style and what we stand for as a brand. From statement pieces to clever basics that can elevate your closet, Eclipse Apparel has you covered. What they say about us? Eclipse Apparel is more than what you wear, it's how you feel.</p></h3>
+                
+            </div>
+            </div>
+            </div>
+            <div class="footer-col-1">
+               <center> <h3>Download Our App</h3> </center>
+                <center><p>Start Shopping on Android & iOS</p></center>
+            <div class="app-logo">
+            <center><img src="images/apptss.jpg"></center>
+        <center><img src="images/gplay.jpg"></center>
+                </div>
+            
+            <div class="footer-col-4">
+                <h3>Join Us on Social</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Reddit</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">© 2025 Eclipse Apparel. Unauthorized Use Prohibited</p>
+    </div>
+</div>
+
+<!--------js for toggle menu ---------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight= "200px";
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px";
+    }
+    }
+
+</script>
+
+</body>
+</html>
